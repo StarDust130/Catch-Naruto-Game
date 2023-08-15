@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family:  Courier, monospace;
+    background: url(wallpaperflare.com_wallpaper\ \(6\).jpg);
+    background-size: cover;
+}
+#board{
+    width: 540px;
+    height: 540px;
+    margin: 0 auto;
+    background: url(https://e1.pxfuel.com/desktop-wallpaper/914/816/desktop-wallpaper-hidden-leaf-village-konoha-konoha-village.jpg) ;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#board > div{
+    width: 180px;
+    height: 180px;
+    float: left;
+    border: 0.1px solid black;
+    cursor: pointer;
+    
+    
+}
+#board  div img {
+    width: 180px;
+    height: 180px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+
+}
