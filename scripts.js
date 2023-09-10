@@ -120,3 +120,20 @@ function selectTile() {
     gameOver = true;
   }
 }
+// Get a reference to the audio element
+const audio = document.getElementById("background-music");
+
+// Play the audio
+function playAudio() {
+  audio.play();
+}
+
+// Pause the audio
+function pauseAudio() {
+  audio.pause();
+}
+
+// Adjust the volume (0.0 to 1.0)
+function setVolume(volume) {
+  audio.volume = volume;
+}
