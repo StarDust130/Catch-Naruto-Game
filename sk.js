@@ -21,7 +21,7 @@ function SetGame() {
 
     document.getElementById("board").appendChild(tile);
   }
-  setInterval(setNaruto, 1500); // set the mole every 1 second.
+  setInterval(setNaruto, 1000); // set the mole every 1 second.
   setInterval(setJiraya, 1000); // set the mole every 2 second.
   setInterval(setlee, 1000); // set the mole every 3 second.
 }
@@ -103,4 +103,21 @@ function selectTile() {
     document.getElementById("score").style.fontWeight = "bold";
     gameOver = true;
   }
+}
+// Get a reference to the audio element
+const audio = document.getElementById("background-music");
+
+// Play the audio
+function playAudio() {
+  audio.play();
+}
+
+// Pause the audio
+function pauseAudio() {
+  audio.pause();
+}
+
+// Adjust the volume (0.0 to 1.0)
+function setVolume(volume) {
+  audio.volume = volume;
 }
