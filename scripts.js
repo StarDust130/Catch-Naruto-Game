@@ -127,5 +127,4 @@ const audio = document.getElementById("background-music");
 function playAudio() {
   audio.play();
 }
-
-
+audio.play()
