@@ -10,6 +10,7 @@ To play the game, simply open the index.html file in a web browser. The game wil
 The game board consists of a 3x3 grid of tiles. Each tile can contain one of three characters: Naruto, Lee, or Jiraya. The Naruto character is the one that the player needs to catch.
 
 
+
 To catch the Naruto character, the player must click on the tile that contains it. If the player successfully catches the Naruto character, their score will increase by 10 points. If the player clicks on a different character, the game will end and their final score will be displayed.
 
 
