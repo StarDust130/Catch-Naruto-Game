@@ -20,9 +20,9 @@ function SetGame() {
 
     document.getElementById("board").appendChild(tile);
   }
-  setInterval(setNaruto, 800); // set the mole every 1 second.
-  setInterval(setJiraya, 1000); // set the mole every 2 second.
-  setInterval(setlee, 1500); // set the mole every 3 second.
+  setInterval(setNaruto, 1500); // set the mole every 1.5 second.
+  setInterval(setJiraya, 3000); // set the mole every 3 second.
+  setInterval(setlee, 200); // set the mole every 2 second.
 }
 
 function getRansomTile() {
